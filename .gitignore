@@ -1,0 +1,17 @@
+node_modules/
+*.log
+# test pictures made while tuning the scene and the camera
+renders/a_*.jpg
+renders/s_*.jpg
+renders/t_*.jpg
+renders/w_*.jpg
+renders/x_*.jpg
+renders/y_*.jpg
+renders/z_*.jpg
+renders/sheet_*.jpg
+renders/m_*.jpg
+renderer/web/pt2.bak.js
+renders/c_*.jpg
+renders/d_*.jpg
+renders/e_*.jpg
+renders/p_*.jpg

@@ -1,0 +1,5 @@
+# Text is stored with LF line endings whatever the computer; pictures are left alone.
+* text=auto eol=lf
+*.webp binary
+*.jpg binary
+*.png binary
