@@ -1,0 +1,18 @@
+{
+  "name": "forge-homepage",
+  "private": true,
+  "version": "0.2.0",
+  "description": "Company homepage: a 64-bit memory being designed and built, drawn live with three.js on WebGPU (WebGL 2 where WebGPU is missing) and driven by scroll.",
+  "type": "module",
+  "scripts": {
+    "start": "node renderer/server.mjs 4320",
+    "vendor": "esbuild site/vendor/three-entry.js --bundle --format=esm --minify --legal-comments=eof --target=es2022 --outfile=site/vendor/three.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "three": "0.186.1"
+  }
+}
